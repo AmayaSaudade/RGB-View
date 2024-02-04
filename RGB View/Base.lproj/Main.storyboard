@@ -79,16 +79,25 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="voG-at-3DZ" userLabel="Sliders">
                                         <rect key="frame" x="129" y="0.0" width="224" height="122"/>
                                         <subviews>
-                                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="AMt-gO-lbX">
+                                            <slider opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="AMt-gO-lbX">
                                                 <rect key="frame" x="-2" y="0.0" width="228" height="31"/>
                                                 <color key="minimumTrackTintColor" systemColor="systemRedColor"/>
+                                                <connections>
+                                                    <action selector="changeColorValue:" destination="BYZ-38-t0r" eventType="valueChanged" id="hZo-XF-N5h"/>
+                                                </connections>
                                             </slider>
-                                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="Mud-PX-kpI">
+                                            <slider opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="Mud-PX-kpI">
                                                 <rect key="frame" x="-2" y="46" width="228" height="31"/>
                                                 <color key="minimumTrackTintColor" systemColor="systemGreenColor"/>
+                                                <connections>
+                                                    <action selector="changeColorValue:" destination="BYZ-38-t0r" eventType="valueChanged" id="Rjb-8h-zQp"/>
+                                                </connections>
                                             </slider>
-                                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="z8k-Ic-G8b">
+                                            <slider opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="z8k-Ic-G8b">
                                                 <rect key="frame" x="-2" y="92" width="228" height="31"/>
+                                                <connections>
+                                                    <action selector="changeColorValue:" destination="BYZ-38-t0r" eventType="valueChanged" id="yKW-aR-pcl"/>
+                                                </connections>
                                             </slider>
                                         </subviews>
                                     </stackView>
@@ -108,7 +117,13 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="blueNumberLabel" destination="yCZ-RL-sBK" id="IEu-o1-gJC"/>
+                        <outlet property="blueSlider" destination="z8k-Ic-G8b" id="5bX-2s-yM5"/>
+                        <outlet property="greenNumberLabel" destination="V2U-7O-ufy" id="SEe-l6-psc"/>
+                        <outlet property="greenSlider" destination="Mud-PX-kpI" id="0Kg-zt-3Mt"/>
                         <outlet property="mainView" destination="A6O-8O-ijI" id="OSc-zJ-Q1b"/>
+                        <outlet property="redNumberLabel" destination="vSO-zv-wrJ" id="JyM-HX-SNR"/>
+                        <outlet property="redSlider" destination="AMt-gO-lbX" id="7N1-zp-7LD"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
