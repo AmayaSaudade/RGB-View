@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2846B6EA2B6FC23700D01E96 /* RGB View.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RGB View.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2846B6EA2B6FC23700D01E96 /* RGBView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RGBView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2846B6ED2B6FC23700D01E96 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2846B6EF2B6FC23700D01E96 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		2846B6F12B6FC23700D01E96 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -48,7 +48,7 @@
 		2846B6EB2B6FC23700D01E96 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2846B6EA2B6FC23700D01E96 /* RGB View.app */,
+				2846B6EA2B6FC23700D01E96 /* RGBView.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -70,9 +70,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2846B6E92B6FC23700D01E96 /* RGB View */ = {
+		2846B6E92B6FC23700D01E96 /* RGBView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2846B6FE2B6FC23A00D01E96 /* Build configuration list for PBXNativeTarget "RGB View" */;
+			buildConfigurationList = 2846B6FE2B6FC23A00D01E96 /* Build configuration list for PBXNativeTarget "RGBView" */;
 			buildPhases = (
 				2846B6E62B6FC23700D01E96 /* Sources */,
 				2846B6E72B6FC23700D01E96 /* Frameworks */,
@@ -82,9 +82,9 @@
 			);
 			dependencies = (
 			);
-			name = "RGB View";
+			name = RGBView;
 			productName = "RGB View";
-			productReference = 2846B6EA2B6FC23700D01E96 /* RGB View.app */;
+			productReference = 2846B6EA2B6FC23700D01E96 /* RGBView.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +102,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 2846B6E52B6FC23700D01E96 /* Build configuration list for PBXProject "RGB View" */;
+			buildConfigurationList = 2846B6E52B6FC23700D01E96 /* Build configuration list for PBXProject "RGBView" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +115,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2846B6E92B6FC23700D01E96 /* RGB View */,
+				2846B6E92B6FC23700D01E96 /* RGBView */,
 			);
 		};
 /* End PBXProject section */
@@ -344,7 +344,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2846B6E52B6FC23700D01E96 /* Build configuration list for PBXProject "RGB View" */ = {
+		2846B6E52B6FC23700D01E96 /* Build configuration list for PBXProject "RGBView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2846B6FC2B6FC23A00D01E96 /* Debug */,
@@ -353,7 +353,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2846B6FE2B6FC23A00D01E96 /* Build configuration list for PBXNativeTarget "RGB View" */ = {
+		2846B6FE2B6FC23A00D01E96 /* Build configuration list for PBXNativeTarget "RGBView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2846B6FF2B6FC23A00D01E96 /* Debug */,
